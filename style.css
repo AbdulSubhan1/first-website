@@ -1,0 +1,158 @@
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header{
+    background-color: rgb(23, 22, 36);
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: tomato 4px solid;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+ ul{
+    margin: 0;
+    padding: 0;
+}
+
+.dark{
+    padding: 15px;
+    background-color:  rgb(23, 22, 36);
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button_1{
+    height: 37px;
+    background-color:tomato ;
+    border: 0;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+header li{
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header .hightlight, header .current{
+    font-weight: bold;
+    color: tomato;
+
+}
+
+header a:hover{
+    font-weight: bold;
+    color: rgb(248, 148, 131);
+}
+
+#showcase{
+    min-height: 400px;
+    background: url("./img/showcase.jpg") no-repeat  ;
+    text-align: center;
+    color:#ff5656;
+    width: 100%;
+}
+
+#showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+#showcase p{
+    font-size: 20px;
+}
+
+#newsletter{
+    background-color:rgb(23, 22, 36) ;
+    color: white;
+}
+
+#newsletter h3{
+    float: left;
+}
+#newsletter form{
+    position: relative;
+    float: right;
+    top: -46px;
+}
+#newsletter input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+#boxes{
+    margin-top: 20px;
+}
+#boxes .box{
+    float: left;
+    width: 30%;
+    text-align:center ;
+    padding: 10px;
+}
+#boxes .box img{
+    width:100px;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+#main-col{
+    float: left;
+    width: 65%;
+}
+
+#services li{
+    list-style: none;
+    padding: 20px;
+    border:#cccccc solid 1px ;
+    margin-bottom: 5px;
+    background: #e6e6e6;
+}
+.quotes{
+    padding: 5px;
+    margin: 5px;
+
+}
+
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    background-color: rgb(23, 22, 36);
+    color: white;
+    text-align: center;
+    border-top: tomato 4px solid;
+}
